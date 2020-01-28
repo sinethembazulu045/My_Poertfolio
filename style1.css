@@ -1,0 +1,158 @@
+*
+{
+    margin: 0;
+    padding: 0;  
+}
+ header
+ {
+     background-image: url('YxRayv.jpeg');
+     height: 100vh;
+     background-size: cover;
+     background-position: center;
+ }
+
+ .main-nav
+ {
+     float: right;
+     list-style: none;
+     margin-top: 30px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li a
+{
+    color:white;
+    text-decoration: none;
+    padding: 5px 28px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    box-shadow: 8px 8px 5px rgb(255, 253, 253);
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+    border:1px solid white;
+}
+.logo img
+{
+    width: 0px;
+    height:auto;
+}
+
+body
+{
+    font-family: monospace;
+}
+.row
+{
+    max-width: 12000px;
+    margin: auto;
+}
+h1
+{
+    color:white;
+    text-transform: uppercase;
+    font-size: 70;
+    text-align: left;
+    margin-top: 275;
+}
+.button
+{
+    margin-top: 30px;
+    margin-left: 440px;
+    
+}
+.btn 
+{
+    border:1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    
+    text-transform: uppercase;
+
+}
+.btn-one
+{
+    background-color: darkorange;
+    font-family:"Roboto", sans-serif;
+}
+p
+{ 
+    color:grey;
+    text-transform:none;
+    font-size: 70;
+    text-align: left;
+    margin-top: 275;  
+    background-color:white;
+    font-family:"Roboto", sans-serif;
+
+}
+h2
+{
+    color:grey;
+    text-transform: uppercase;
+    font-size: 90;
+    text-align: left;
+    margin-top: 200;
+    background-color:white;
+}
+br{
+    background-color: white;
+}
+img
+{
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    
+
+}
+.row1
+{
+    max-width: 12000px;
+    margin: auto;
+    position:right;
+}
+main-nav2
+{
+    color:grey;
+    text-transform:none;
+    font-size: 70;
+    text-align: left;
+    margin-top: 275;  
+    background-color:white;
+    font-family:"Roboto", sans-serif;
+}
+
+.row2
+{
+    max-width: 12000px;
+    margin: auto;
+    position:right;
+    
+}
+.row3
+{
+    max-width: 12000px;
+    margin: auto;
+    position:right;
+}
+address{
+   
+        display: block;
+        font-style: italic;
+        text-align: left;
+      } 
